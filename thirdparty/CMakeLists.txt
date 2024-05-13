@@ -21,7 +21,8 @@ endif()
   ## Add klib
 FetchContent_Declare(
   klib
-  GIT_REPOSITORY https://github.com/attractivechaos/klib
+  # GIT_REPOSITORY https://github.com/attractivechaos/klib
+  GIT_REPOSITORY https://github.com/StephenHwang/klib.git
 )
 
 FetchContent_GetProperties(klib)
